@@ -1,0 +1,6 @@
+Objective 
+
+Define one way password hashing
+    change the password into a hash so actual password is not saved
+    
+Define JSON Web Tokens (JWT)
