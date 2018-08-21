@@ -19,7 +19,7 @@ app.use(function(req, res, next){
 });
 
 //handler
-app.use(errorHandler);
+app.use(errorHandler);// this goes after creating error or else error will not be found
 
 app.listen(PORT, function(){
     console.log(`Server is starting on port ${PORT}`);
