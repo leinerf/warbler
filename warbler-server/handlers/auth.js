@@ -55,10 +55,10 @@ exports.signup = async function(req, res, next){
             process.env.SECRET_KEY
         );
         return res.status(200).json({
-            id,
-            username,
-            profileImageUrl,
-            token
+            id: id,
+            username: username,
+            profileImageUrl: profileImageUrl,
+            token: token
           });
     } catch(err) {
         //see what kind of error
