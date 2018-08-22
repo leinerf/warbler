@@ -23,7 +23,7 @@ messageSchema.pre("remove", async function(next){
         await user.save();
         // return next
         return next();
-    } catch (e) {
+    } catch (err) {
         return next(err);
      }
     
